@@ -7,15 +7,27 @@ body {
     width: 35vw;
 }
 
+#other-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #form-holder {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
-    border: black solid 2px;
     height: 20vh;
     justify-content: center;
     padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(43, 194, 43);
+    border: none;
+    padding: 5px 10px;
 }
 
 
