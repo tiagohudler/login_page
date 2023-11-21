@@ -8,12 +8,6 @@ body {
 }
 
 #form-holder {
-    height: 20vh;
-    box-shadow: ;
-
-}
-
-form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -23,6 +17,7 @@ form {
     justify-content: center;
     padding-left: 30px;
 }
+
 
 label {
     display: block;
