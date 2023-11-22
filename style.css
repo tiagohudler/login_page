@@ -1,5 +1,6 @@
 body {
     display: flex;
+    font-size: 20px;
 }
 
 #img-holder {
@@ -11,6 +12,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 65vw;
+    background-color: antiquewhite;
+    padding-left: 30px;
+    height: 100vh;
 }
 
 #form-holder {
@@ -18,19 +23,39 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
-    height: 20vh;
+    height: 30vh;
     justify-content: center;
     padding-left: 30px;
     margin-bottom: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px 5px gray;
+    position: relative;
+    background-color: white;
 }
 
 button {
     background-color: rgb(43, 194, 43);
     border: none;
     padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 
 label {
     display: block;
+}
+
+
+legend {
+    position: relative;
+    right: 20px;
+    top: 2.5vh;
+    margin: 10px 0px 30px 10px;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 30px;
 }
