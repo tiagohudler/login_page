@@ -1,13 +1,20 @@
+
+
+
 body {
     display: flex;
     font-size: 20px;    
-    background-color: antiquewhite;
-
+    background-color: rgb(187, 219, 216);
+    margin: 0px;
 }
 
 #img-holder {
     height: 100vh;
     width: 35vw;
+    background-image: url(./images/lucy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 #other-content {
@@ -17,6 +24,7 @@ body {
     width: 65vw;
     padding-left: 30px;
     height: 100vh;
+    overflow: auto;
 }
 
 #form-holder {
@@ -28,17 +36,21 @@ body {
     justify-content: center;
     padding-left: 30px;
     margin-bottom: 20px;
+    margin-left: -30px;
     border: none;
-    box-shadow: 2px 2px 5px 5px gray;
+    box-shadow: 3px 3px  gray;
     position: relative;
     background-color: white;
+    overflow: auto;
 }
 
 button {
     background-color: rgb(43, 194, 43);
     border: none;
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
     border-radius: 5px;
 }
 
@@ -59,8 +71,13 @@ legend {
 
 input{
     border: solid 2px #E5E7EB ;
+    font-size: 15px;
 }
 
 p {
     font-size: 30px;
+}
+
+a {
+    text-decoration: none;
 }
