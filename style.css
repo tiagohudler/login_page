@@ -4,7 +4,7 @@
 body {
     display: flex;
     font-size: 20px;    
-    background-color: rgb(187, 219, 216);
+    
     margin: 0px;
 }
 
@@ -14,7 +14,24 @@ body {
     background-image: url(./images/lucy.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo-holder {
+    background: rgba(0,0,0,0.5);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-holder > div{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    opacity: 100%;
 }
 
 #other-content {
@@ -25,6 +42,10 @@ body {
     padding-left: 30px;
     height: 100vh;
     overflow: auto;
+    background: #76147A;
+    background: -moz-linear-gradient(-45deg, #76147A 0%, #210937 100%);
+    background: -webkit-linear-gradient(-45deg, #76147A 0%, #210937 100%);
+    background: linear-gradient(135deg, #76147A 0%, #210937 100%);
 }
 
 #form-holder {
@@ -38,7 +59,7 @@ body {
     margin-bottom: 20px;
     margin-left: -30px;
     border: none;
-    box-shadow: 3px 3px  gray;
+    box-shadow: 3px 3px 3px gray;
     position: relative;
     background-color: white;
     overflow: auto;
@@ -80,4 +101,5 @@ p {
 
 a {
     text-decoration: none;
+    color: yellow;
 }
