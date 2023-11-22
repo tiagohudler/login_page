@@ -43,9 +43,7 @@ body {
     height: 100vh;
     overflow: auto;
     background: #76147A;
-    background: -moz-linear-gradient(-45deg, #76147A 0%, #210937 100%);
-    background: -webkit-linear-gradient(-45deg, #76147A 0%, #210937 100%);
-    background: linear-gradient(135deg, #76147A 0%, #210937 100%);
+    background: linear-gradient(135deg, #000000 0%, #210937 100%);
 }
 
 #form-holder {
@@ -59,9 +57,9 @@ body {
     margin-bottom: 20px;
     margin-left: -30px;
     border: none;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 0px 3px 3px rgb(72, 255, 0);
     position: relative;
-    background-color: white;
+    background-color: #150823;
     overflow: auto;
 }
 
@@ -97,9 +95,11 @@ input{
 
 p {
     font-size: 30px;
+    color: #76147A;
 }
 
 a {
     text-decoration: none;
     color: yellow;
+    text-shadow: none;
 }
