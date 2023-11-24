@@ -63,6 +63,12 @@ body {
     overflow: auto;
 }
 
+#form-holder > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
 button {
     background-color: rgb(43, 194, 43);
     border: none;
@@ -89,9 +95,10 @@ legend {
 }
 
 input{
-    border: solid 3px #76147A ;
+    border: solid 2px #76147A ;
     font-size: 15px;
     border-radius: 8px;
+    background-color: #150823;
 }
 
 p {
@@ -104,3 +111,4 @@ a {
     color: yellow;
     text-shadow: none;
 }
+
