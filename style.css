@@ -54,6 +54,7 @@ body {
     height: 30vh;
     justify-content: center;
     padding-left: 30px;
+    padding-bottom: 40px;
     margin-bottom: 20px;
     margin-left: -30px;
     border: none;
@@ -70,11 +71,11 @@ body {
 }
 
 button {
-    background-color: rgb(43, 194, 43);
-    border: none;
+    background-color: #150823;
+    border: solid 2px #76147A;
     padding: 10px 20px;
     font-size: 25px;
-    color: white;
+    color: black;
     font-weight: 700;
     border-radius: 5px;
 }
@@ -82,6 +83,7 @@ button {
 
 label {
     display: block;
+    font-size: 25px;
 }
 
 
